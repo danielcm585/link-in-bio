@@ -1,26 +1,41 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="bg-gray-500">
+    <div class="bg-white rounded-full w-48">
+      <img class="p-1 h-48 rounded-full" src="./assets/my-photo.jpg" />
+    </div>
+    <h1 class="text-3xl font-bold text-black">@daniel.cm_</h1>
+    <ul>
+      <li>
+        <a href="https://www.dcm.my.id/">
+          Official Website
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/danielcm585">
+          Github
+        </a>
+      </li>
+      <li>
+        <a href="https://codeforces.com/profile/danielcm5583">
+          Codeforces
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/daniel-christian-mandolang-317822174/">
+          LinkedIn
+        </a>
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  export default {
+    name: "App",
+    components: {
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+    }
   }
-}
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style src="./assets/tailwind.css" />
